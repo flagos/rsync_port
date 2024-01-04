@@ -1,0 +1,9 @@
+
+
+[tool.black]
+extend-exclude = '''__init__.py'''
+
+[tool.isort]
+profile = "black"
+extend_skip = ["__init__.py"]
+combine_as_imports = "True"

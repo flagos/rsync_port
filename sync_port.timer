@@ -1,0 +1,11 @@
+[Unit]
+Description=rsync timer
+
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+Unit=sync_port.service
+
+
+[Install]
+WantedBy=timers.target

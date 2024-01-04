@@ -1,0 +1,10 @@
+[Unit]
+Description=nat-pmp with transmission service
+
+[Service]
+Type=oneshot
+ExecStart=<path_to_here>/env/bin/python <path_to_here>/main.py
+User=<some_user>
+
+[Install]
+WantedBy=default.target
