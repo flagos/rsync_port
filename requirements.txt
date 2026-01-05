@@ -1,9 +1,4 @@
-certifi==2023.11.17
-charset-normalizer==3.3.2
-idna==3.6
-py-natpmp==0.2.5
-python-qbittorrent==0.4.3
-requests==2.31.0
-transmission-rpc==7.0.3
-typing_extensions==4.9.0
-urllib3==2.1.0
+py-natpmp
+python-qbittorrent
+transmission-rpc
+typing_extensions

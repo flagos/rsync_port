@@ -1,0 +1,10 @@
+services:
+  port-sync:
+    build:
+      context: .
+      network: host
+    container_name: rsync_port
+    network_mode: host
+    volumes:
+      - ./config.ini:/app/config.ini
+    restart: unless-stopped
